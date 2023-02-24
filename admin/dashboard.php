@@ -59,9 +59,9 @@ include 'sidebar.php'; ?>
       <div class="row">
         <div class="col-md-12">
           <div class="row">
-            <div class="col-md-3">
-              <div class="panel panel-default panel-info" style="border-radius:50px;">
-                <div class="panel-body panel-info bk-primary text-light" style="background-color:#D6EAF8; border-radius:50px">
+            <div class="col-md-4">
+              <div class="panel panel-default panel-info" style="border-radius:20px;">
+                <div class="panel-body panel-info bk-primary text-light" style="background-color:rgb(59,118,239); border-radius:20px;color:white;">
                   <div class="stat-panel text-center">
                     <?php
                       $sql =" SELECT * from donor_details ";
@@ -72,11 +72,11 @@ include 'sidebar.php'; ?>
 
 
                     <div class="stat-panel-number h1"><?php echo $row?></div>
-                    <div class="stat-panel-title text-uppercase">Blood Donors Available </div>
+                    <div class="stat-panel-title text-uppercase">Donors</div>
                     <br>
-                      <button class="btn btn-danger" onclick="window.location.href = 'donor_list.php';">
-                        Full Detail <i class="fa fa-arrow-right"></i>
-                      </button>
+                      <a style="padding:10px 23px;color:white" href ='donor_list.php'>
+                        View <i class="fa fa-arrow-right"></i>
+                      </a>
 
 
                   </div>
@@ -85,9 +85,9 @@ include 'sidebar.php'; ?>
               </div>
             </div>
 
-            <div class="col-md-3">
-              <div class="panel panel-default panel-info" style="border-radius:50px;">
-                <div class="panel-body panel-info bk-primary text-light" style="background-color:#ABEBC6;border-radius:50px;">
+            <div class="col-md-4">
+              <div class="panel panel-default panel-info" style="border-radius:20px;">
+                <div class="panel-body panel-info bk-primary text-light" style="background-color:rgb(109,212,177);border-radius:20px;color:white;">
                   <div class="stat-panel text-center">
                     <?php
                       $sql1 =" SELECT * from contact_query ";
@@ -98,20 +98,21 @@ include 'sidebar.php'; ?>
 
 
                     <div class="stat-panel-number h1 "><?php echo $row1?></div>
-                    <div class="stat-panel-title text-uppercase"> All User Queries </div>
+                    <div class="stat-panel-title text-uppercase">Messages </div>
                     <br>
-                    <button class="btn btn-danger" onclick="window.location.href = 'query.php';">
-                      Full Detail <i class="fa fa-arrow-right"></i>
-                    </button>
+                     <a style="padding:10px 23px;color:white" href ='query.php'>
+                        View <i class="fa fa-arrow-right"></i>
+                      </a>
+                   
                   </div>
                 </div>
 
               </div>
             </div>
 
-            <div class="col-md-3">
-              <div class="panel panel-default panel-info" style="border-radius:50px;">
-                <div class="panel-body panel-info bk-primary text-light" style="background-color:#E8DAEF ;border-radius:50px; ">
+            <div class="col-md-4">
+              <div class="panel panel-default panel-info" style="border-radius:20px;">
+                <div class="panel-body panel-info bk-primary text-light" style="background-color:rgb(99,199,255) ;border-radius:20px;color:white; ">
                   <div class="stat-panel text-center">
                     <?php
                       $sql2 ="SELECT * from contact_query where query_status=2 ";
@@ -119,14 +120,13 @@ include 'sidebar.php'; ?>
                       $row2=mysqli_num_rows($result2);
 
                     ?>
-
-
                     <div class="stat-panel-number h1 "><?php echo $row2 ?></div>
-                    <div class="stat-panel-title text-uppercase"> Pending Queries </div>
+                    <div class="stat-panel-title text-uppercase">Pending Messages </div>
                     <br>
-                    <button class="btn btn-danger" onclick="window.location.href = 'pending_query.php';">
-                      Full Detail <i class="fa fa-arrow-right"></i>
-                    </button>
+                    <a style="padding:10px 23px;color:white" href ='pending_query.php'>
+                        View <i class="fa fa-arrow-right"></i>
+                      </a>
+                   
                   </div>
                 </div>
 

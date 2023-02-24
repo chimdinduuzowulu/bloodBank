@@ -1,6 +1,3 @@
-create database blood_donation; /* creating database*/
-use blood_donation;
-
 /*create table donor_details in which all donor information gets stored.*/
 create table donor_details(
 donor_id int auto_increment NOT NULL,
@@ -24,7 +21,7 @@ Primary key(admin_id)
 
 /*  insert admin data into admin_info table*/
 insert into admin_info(admin_name,admin_username,admin_password)
-values("Varun","varunsardana004",123);
+values("Admin","Admin123",123);
 
 /*create table blood in which all blood group is stored.*/
 create table blood(
@@ -58,7 +55,7 @@ primary key(contact_id)
 );
 
 insert into contact_info(contact_address,contact_mail,contact_phone)
-values("Hisar,Haryana(125001)","bloodbank@gmail.com","7056550477");
+values("Admin,Admin","bloodbank@gmail.com","+234 12345678");
 
 
 

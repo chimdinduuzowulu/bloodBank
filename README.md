@@ -22,7 +22,7 @@ Blood Bank Donation System is a php based web project with both admin and user l
 
 6. Click on new at side navbar.
 
-7. Give a database name as (blood_bank_database) hit on create button.
+7. Give a database name as (blood_bank_database) hit on create button. 
 
 8. After creating database name click on import.
 

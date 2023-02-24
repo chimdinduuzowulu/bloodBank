@@ -16,14 +16,10 @@
 </head>
 <body>
   <div id="footer" >
-  <b><center>COPYRIGHT © 2020<br>
-  Blood Bank & Donation Management
+  <b><center>COPYRIGHT©2023<br>
+  Blood Donation Management System for Nile university Abuja.
   <br>
-  ALL RIGHTS RESERVED.
   </center>
   </div>
-
-
 </body>
-
 </html>

@@ -22,10 +22,9 @@ $active="home";
 include('head.php'); ?>
 
 </div>
-<?php include'ticker.php'; ?>
 
   <div id="page-container" style="margin-top:50px; position: relative;min-height: 84vh;   ">
-    <div class="container">
+    <div class="container-fluid">
     <div id="content-wrap"style="padding-bottom:75px;">
   <div id="demo" class="carousel slide" data-ride="carousel">
 
@@ -33,15 +32,28 @@ include('head.php'); ?>
     <ul class="carousel-indicators">
       <li data-target="#demo" data-slide-to="0" class="active"></li>
       <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+      <li data-target="#demo" data-slide-to="4"></li>
+      <li data-target="#demo" data-slide-to="5"></li>
     </ul>
 
     <!-- The slideshow -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="image\_107317099_blooddonor976.jpg" alt="image\_107317099_blooddonor976.jpg" width="100%" height="500">
+        <img src="./image//slider3.webp" alt="image not found" width="100%" height="500">
       </div>
       <div class="carousel-item">
-        <img src="image\Blood-facts_10-illustration-graphics__canteen.png" alt="image\Blood-facts_10-illustration-graphics__canteen.png" width="100%" height="500">
+        <img src="./image/slider2.jpeg" alt="image not found" width="100%" height="500">
+      </div>
+       <div class="carousel-item">
+        <img src="./image/slider1.jpeg" alt="image not found" width="100%" height="500">
+      </div>
+       <div class="carousel-item">
+        <img src="./image/slider4.jpeg" alt="image not found" width="100%" height="500">
+      </div>
+       <div class="carousel-item">
+        <img src="./image/slider5.webp" alt="image not found" width="100%" height="500">
       </div>
 
     </div>
